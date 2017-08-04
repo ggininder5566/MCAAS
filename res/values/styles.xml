@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="MyCheckBox" parent="@android:style/Widget.CompoundButton.CheckBox">
+  		<item name="android:button">@drawable/checkbox_selector</item>
+  		<item name="android:paddingLeft">25.0dip</item>
+  		<item name="android:maxHeight">10.0dip</item>
+  	</style>  
+  	
+  	    <style name="ed_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/ed_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+     </style> 
+  	    
+  	    <style name="no_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/no_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+        
+        <style name="send_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/send_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+        
+        <style name="in_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/in_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+        
+        <style name="log_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/log_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+        
+        <style name="reg_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/reg_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+        
+        <style name="reload_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/reload_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+        
+        <style name="drafts_bn" parent="@android:style/Widget.Button">
+        <item name="android:background">@drawable/dra_custom_btn</item>
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        </style>
+</resources>

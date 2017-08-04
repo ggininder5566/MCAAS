@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, LoginActivity!</string>
+    <string name="app_name">MCaaS</string>
+    <drawable name="block">#333333</drawable>
+    <drawable name="white">#ffffff</drawable>
+        <string name="search_lan">Search LAN</string>
+    <string name="switch_router">Network On/Off</string>
+    <string name="toggle_debug_logging">Toggle debug logging</string>
+
+    <string name="searching_lan">Searching LAN for UPnP devices...</string>
+    <string name="enabling_router">Enabling network router...</string>
+    <string name="disabling_router">Disabling network router...</string>
+    <string name="enabling_debug_logging">Enabling debug logging...</string>
+    <string name="disabling_debug_logging">Disabling debug logging...</string>
+
+    <string name="registering_demo_device">Registering UPnP demo device...</string>
+    <string name="create_demo_failed">Creating of demo device failed, check the log!</string>
+    <string name="edit">edit</string>
+    <string name="Renew">Renew</string>
+    <string name="InBox">InBox</string>
+    <string name="Publish">Publish</string>
+    <string name="Drafts">Drafts</string>
+    <string name="UserProfile">UserProfile</string>
+    <string name="default_settings">default_settings</string>
+    <string name="input_new_password">input_new_password</string>
+    <string name="confirm_new_password">confirm_new_password</string>
+    <string name="phone">phone</string>
+    <string name="sms">等待接收驗證簡訊，可能會花幾分鐘的時間，請耐心等候</string>
+    <string name="settings">settings</string>
+    <string name="NewPassword">NewPassword</string>
+    <string name="Confirm_new_Password">Confirm_new_Password</string>
+ <string name="user_phone">user_phone</string>
+ <string name="Receiver">Receiver</string>
+  <string name="Subject">Subject</string>
+    <string name="content">content</string>
+</resources>

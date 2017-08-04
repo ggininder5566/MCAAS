@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/main_background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/Password"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Exit"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="80dp"
+        android:layout_toLeftOf="@+id/register"
+        android:hint="Password"
+        android:maxLines="1"
+        android:password="true"
+        android:text="curry"
+        android:textColor="@drawable/block" >
+       
+    </EditText>
+
+    <EditText
+        android:id="@+id/ID"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_toLeftOf="@+id/register"
+        android:hint="ID"
+        android:text="curry"
+        android:textColor="@drawable/block" />
+
+    <ImageView
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/ID"
+        android:src="@drawable/login" android:clickable="true"/>
+
+    <ImageView
+        android:id="@+id/Exit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/imageView2"
+        android:src="@drawable/quit" />
+
+    <ImageView
+        android:id="@+id/register"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/register" />
+
+    <EditText
+        android:id="@+id/Logip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Exit"
+        android:layout_toLeftOf="@+id/register"
+        android:ems="10"
+        android:text="140.138.150.27"
+        android:textColor="@drawable/block" >
+	
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>    

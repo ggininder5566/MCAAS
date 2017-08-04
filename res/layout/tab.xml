@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TabHost xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@android:id/tabhost"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"    
+    android:background="@drawable/background">
+    
+    <LinearLayout
+        android:id="@+id/tably"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/background"
+        >
+        
+        <TabWidget
+            android:id="@android:id/tabs"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/block" />
+        
+        <FrameLayout
+            android:id="@android:id/tabcontent"
+            android:layout_width="fill_parent"
+            
+            android:layout_height="fill_parent"
+            android:layout_marginBottom="60dp"
+            android:padding="5dp"
+             >
+       					<LinearLayout
+                                android:id="@+id/tab1"
+                                android:orientation="vertical"
+                                android:layout_width="fill_parent"
+                                android:layout_height="fill_parent"
+                                android:paddingTop="20dip"
+                                
+                                >
+                                <ImageView
+                                        android:layout_width="fill_parent"
+                                        android:layout_height="fill_parent"
+                                        android:layout_gravity="center"
+                                        />
+                                
+                        </LinearLayout>
+        
+        </FrameLayout>
+        
+    </LinearLayout>
+    <Button  
+	    android:layout_gravity="bottom"
+		android:typeface="monospace" 
+		android:id="@+id/tabback"
+		android:layout_width="130dp" 
+		android:layout_height="40sp"
+		android:layout_marginLeft="5dp"
+		android:layout_marginBottom="5dp"
+		android:background="@drawable/back"
+         />  
+</TabHost>

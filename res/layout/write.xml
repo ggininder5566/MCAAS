@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/delete"
+        android:hint="Text"
+        android:textColorHint="@drawable/block"
+        android:textColor="@drawable/block" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/previewimg"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="10dp"
+        android:text="Receiver"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@drawable/block" />
+
+    <EditText
+        android:id="@+id/receiver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_alignRight="@+id/delete"
+        android:layout_below="@+id/textView1"
+        android:ems="10"
+        android:hint="Receiver"
+        android:layout_marginRight="10dp"
+        android:singleLine="true"
+        android:textColor="@drawable/block" />
+
+    <EditText
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/receiver"
+        android:layout_below="@+id/textView2"
+        android:ems="10"
+        android:hint="Subject"
+        android:singleLine="true"
+        android:textColor="@drawable/block" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/receiver"
+        android:layout_below="@+id/receiver"
+        android:text="@string/Subject"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@drawable/block" />
+
+        <ToggleButton
+            android:id="@+id/Regsb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/subject"
+            android:layout_marginTop="10dp"
+             android:layout_marginRight="10dp"
+            android:textOff="SMS"
+            
+            android:textOn="SMS" />
+
+        <TextView
+            android:id="@+id/writename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/delete"
+            android:layout_alignTop="@+id/delete"
+            android:layout_toLeftOf="@+id/delete"
+            android:layout_toRightOf="@+id/previewimg"
+            android:text="TextView"
+            android:textColor="@drawable/block"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/previewimg"
+            android:layout_width="40dp"
+            android:layout_height="31dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignTop="@+id/writename"
+            android:layout_marginLeft="10dp" />
+
+        <Button
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/Regsb"
+            android:layout_below="@+id/Regsb"
+            android:text="delete"
+            android:textColor="@drawable/block"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/Regsb"
+            android:layout_alignBottom="@+id/Regsb"
+            android:layout_alignLeft="@+id/subject"
+            android:text="Use SMS"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@drawable/block" />
+
+</RelativeLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="19dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/newicon3" />
+
+    <Button
+        android:id="@+id/no_bn"
+        style="@style/no_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/imageView1"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="40dp"
+         />
+
+    <Button
+        android:id="@+id/send_bn"
+        style="@style/send_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/in_bn"
+        android:layout_alignBottom="@+id/in_bn"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/in_bn" />
+
+    <Button
+        android:id="@+id/in_bn"
+        style="@style/in_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/no_bn"
+        android:layout_alignBottom="@+id/no_bn"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/no_bn" />
+
+    <Button
+        android:id="@+id/log_bn"
+        style="@style/log_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/no_bn"
+        android:layout_below="@+id/no_bn"
+        android:layout_marginTop="25dp"
+        />
+
+    <Button
+        android:id="@+id/ed_bn"
+        style="@style/ed_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/log_bn"
+        android:layout_alignBottom="@+id/log_bn"
+        android:layout_alignLeft="@+id/in_bn"
+        />
+
+    <Button
+        android:id="@+id/reg_bn"
+        style="@style/reg_bn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/ed_bn"
+        android:layout_alignBottom="@+id/ed_bn"
+        android:layout_alignLeft="@+id/send_bn"
+        />
+
+</RelativeLayout>
