@@ -23,6 +23,7 @@
 發佈內容
 ====
 bob登入後，就選擇一份多媒體內容送給alcie
+
 ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E7%99%BC%E4%BD%88/%E7%99%BC%E4%BD%881.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E7%99%BC%E4%BD%88/%E7%99%BC%E4%BD%882.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E7%99%BC%E4%BD%88/%E7%99%BC%E4%BD%883.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E7%99%BC%E4%BD%88/%E7%99%BC%E4%BD%884.png?raw=true)
 
 接收訊息
