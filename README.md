@@ -30,11 +30,11 @@ bob登入後，就選擇一份多媒體內容送給alice
 ===
 收到bob傳來的訊息，alice向bob索取多媒體內容；
 
-![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B01.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B02.png?raw=true) ![image]
+![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B01.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B02.png?raw=true)
 
 bob可以選擇自己要開放多久的時間供alice進行m2m，畢竟一直對外開放存取手機內容也有安全上的疑慮
 
-(https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B03.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B04.png?raw=true)
+![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B03.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B04.png?raw=true)
 
 下載(含失敗)
 ===
