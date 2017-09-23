@@ -28,9 +28,13 @@ bob登入後，就選擇一份多媒體內容送給alice
 
 接收訊息
 ===
-收到bob傳來的訊息，alice向bob索取多媒體內容；bob可以選擇自己要開放多久的時間供alice進行m2m，畢竟一直對外開放存取手機內容也有安全上的疑慮
+收到bob傳來的訊息，alice向bob索取多媒體內容；
 
-![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B01.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B02.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B03.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B04.png?raw=true)
+![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B01.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B02.png?raw=true) ![image]
+
+bob可以選擇自己要開放多久的時間供alice進行m2m，畢竟一直對外開放存取手機內容也有安全上的疑慮
+
+(https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B03.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS/blob/master/DEMO/%E6%8E%A5%E5%8F%97%E8%A8%8A%E6%81%AF/%E8%B3%87%E8%A8%8A%E6%9B%B4%E6%96%B04.png?raw=true)
 
 下載(含失敗)
 ===
@@ -40,6 +44,6 @@ bob登入後，就選擇一份多媒體內容送給alice
 
 瀏覽
 ===
-alice再次讀取bob傳來的訊息，可以看價多媒體內容以下載完畢
+alice再次讀取bob傳來的訊息，可以看到多媒體內容以下載完畢
 
 ![image](https://github.com/ggininder5566/MCAAS-android-M2M/blob/master/DEMO/%E7%80%8F%E8%A6%BD/%E7%80%8F%E8%A6%BD1.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS-android-M2M/blob/master/DEMO/%E7%80%8F%E8%A6%BD/%E7%80%8F%E8%A6%BD2.png?raw=true) ![image](https://github.com/ggininder5566/MCAAS-android-M2M/blob/master/DEMO/%E7%80%8F%E8%A6%BD/%E7%80%8F%E8%A6%BD3.png?raw=true)
